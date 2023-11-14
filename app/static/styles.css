@@ -12,20 +12,19 @@ header {
     padding: 30px;
 }
 
-brand {
+.brand {
     font-size: 2em; /* Large font size for the brand/logo */
     font-weight: bold;
   }
 
-version {
+.version {
     font-size: 1em;
   }
 
-description {
+.description {
     font-size: 1.2em;
     margin-top: 5px;
   }
-
 
 footer {
     background-color: #000; /* Black background */
