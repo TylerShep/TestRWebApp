@@ -6,14 +6,49 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 30px;
 }
 
-main {
+footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+footer-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+input[type="text"], input[type="email"] {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #fff; /* White border */
+    background-color: transparent;
+    color: #fff; /* White text */
+  }
+
+  .subscribe-button {
+    padding: 10px 20px;
+    background-color: #fff; /* Example button color */
+    border: none;
+    color: #000; /* White text */
+    cursor: pointer;
+  }
+
+  .social-icons {
+    /* Placeholder styles for social icons */
+  }
+
+main {
+    padding: 200px;
 }
 
 .search-container {
@@ -29,7 +64,7 @@ main {
 }
 
 button {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
@@ -38,5 +73,5 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #000;
 }
