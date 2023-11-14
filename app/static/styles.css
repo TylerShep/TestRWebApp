@@ -35,7 +35,7 @@ input[type="text"], input[type="email"] {
     color: #fff; /* White text */
   }
 
-  .subscribe-button {
+subscribe-button {
     padding: 10px 20px;
     background-color: #fff; /* Example button color */
     border: none;
@@ -43,7 +43,7 @@ input[type="text"], input[type="email"] {
     cursor: pointer;
   }
 
-  .social-icons {
+social-icons {
     /* Placeholder styles for social icons */
   }
 
@@ -57,7 +57,7 @@ main {
     display: flex;
 }
 
-#search-box {
+search-box {
     flex-grow: 2;
     padding: 10px;
     font-size: 16px;
